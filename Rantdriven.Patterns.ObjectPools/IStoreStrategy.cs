@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Rantdriven.Patterns.ObjectPools
+{
+    public interface IStoreStrategy
+    {
+        IResource Acquire();
+        void Release(IResource resource);
+        int Count { get; }
+    }
+}

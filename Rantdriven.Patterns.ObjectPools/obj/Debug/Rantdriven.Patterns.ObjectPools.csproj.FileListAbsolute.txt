@@ -1,0 +1,7 @@
+c:\users\jefe\documents\visual studio 2012\Projects\Rantdriven.Patterns.ObjectPools\Rantdriven.Patterns.ObjectPools\bin\Debug\Rantdriven.Patterns.ObjectPools.dll
+c:\users\jefe\documents\visual studio 2012\Projects\Rantdriven.Patterns.ObjectPools\Rantdriven.Patterns.ObjectPools\bin\Debug\Rantdriven.Patterns.ObjectPools.pdb
+c:\users\jefe\documents\visual studio 2012\Projects\Rantdriven.Patterns.ObjectPools\Rantdriven.Patterns.ObjectPools\obj\Debug\Rantdriven.Patterns.ObjectPools.dll
+c:\users\jefe\documents\visual studio 2012\Projects\Rantdriven.Patterns.ObjectPools\Rantdriven.Patterns.ObjectPools\obj\Debug\Rantdriven.Patterns.ObjectPools.pdb
+c:\users\jefe\documents\visual studio 2012\Projects\Rantdriven.Patterns.ObjectPools\Rantdriven.Patterns.ObjectPools\bin\Debug\nunit.framework.dll
+c:\users\jefe\documents\visual studio 2012\Projects\Rantdriven.Patterns.ObjectPools\Rantdriven.Patterns.ObjectPools\bin\Debug\nunit.framework.xml
+C:\Users\jefe\documents\visual studio 2012\Projects\Rantdriven.Patterns.ObjectPools\Rantdriven.Patterns.ObjectPools\obj\Debug\Rantdriven.Patterns.ObjectPools.csprojResolveAssemblyReference.cache
