@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rantdriven.Patterns.ObjectPools", "Rantdriven.Patterns.ObjectPools\Rantdriven.Patterns.ObjectPools.csproj", "{0CF9D612-59E6-473D-876D-E23DCFD35359}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{2058B023-140B-458D-A52A-D502FA4B5C28}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,10 +13,6 @@ Global
 		{0CF9D612-59E6-473D-876D-E23DCFD35359}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CF9D612-59E6-473D-876D-E23DCFD35359}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CF9D612-59E6-473D-876D-E23DCFD35359}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2058B023-140B-458D-A52A-D502FA4B5C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2058B023-140B-458D-A52A-D502FA4B5C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2058B023-140B-458D-A52A-D502FA4B5C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2058B023-140B-458D-A52A-D502FA4B5C28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
