@@ -12,5 +12,10 @@ namespace Rantdriven.Patterns.ObjectPools.Stubs
         {
             throw new NotImplementedException();
         }
+
+        public void Close()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -9,35 +9,48 @@ namespace Rantdriven.Patterns.ObjectPools
 {
     public class Connection : IResource
     {
-        private Pool<Connection> _pool;
+        private IResourcePool _pool;
         private Socket _socket;
         private bool _disposed;
         private bool _isUsed;
 
-        public Connection(Pool<Connection> pool, Socket socket)
+        public Connection(IResourcePool pool, Socket socket)
         {
             _pool = pool;
             _socket = socket;
         }
 
+        /// <summary>
+        /// Releases the resource back into the pool
+        /// </summary>
         public void Dispose()
         {
-            Dispose(true);
+            _pool.Release(this);
         }
 
-        void Dispose(bool disposing)
+        ~Connection()
+        {
+            Close(false);
+        }
+
+        void Close(bool disposing)
         {
             if (disposing && !_disposed)
             {
                 GC.SuppressFinalize(this);
             }
+ 
+            _socket.Close();
             _socket.Dispose();
             _disposed = true;
         }
 
-        ~Connection()
+        /// <summary>
+        /// Closes the connection and removes the resource from the pool
+        /// </summary>
+        public void Close()
         {
-            Dispose(false);
+           Close(true);
         }
 
         void CheckDisposed()

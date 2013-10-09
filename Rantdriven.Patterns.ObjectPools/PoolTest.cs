@@ -15,7 +15,7 @@ namespace Rantdriven.Patterns.ObjectPools
     public class PoolTest
     {
         private Pool<Connection> _pool;
-        private new Func<Pool<Connection>, Connection> _factory;
+        private Func<Pool<Connection>, Connection> _factory;
 
         [SetUp]
         public void SetUp()
@@ -25,7 +25,7 @@ namespace Rantdriven.Patterns.ObjectPools
             var recieveTimeout = 1000;
             var sendTimeout = 1000;
 
-            _factory = new Func<Pool<Connection>, Connection>((p) =>
+           /* _factory = new Func<Pool<Connection>, Connection>((p) =>
             {
                 IPAddress ipAddress;
                 if (!IPAddress.TryParse(address, out ipAddress))
@@ -54,7 +54,7 @@ namespace Rantdriven.Patterns.ObjectPools
                 socket.SetSocketOption(options.OptionLevel, options.OptionName, options.OptionValue);
                 socket.Connect(options.EndPoint);
                 return new Connection(p, socket);
-            });
+            });*/
         }
 
         [Test]

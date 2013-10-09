@@ -16,7 +16,7 @@ namespace Rantdriven.Patterns.ObjectPools.Fakes
             _storeStrategy = storeStrategy;
             _factory = factory;
         }
-        public IConnection Acquire()
+        public IResource Acquire()
         {
             throw new NotImplementedException();
         }
@@ -27,6 +27,12 @@ namespace Rantdriven.Patterns.ObjectPools.Fakes
         }
 
         public void Dispose()
+        {
+            throw new NotImplementedException();
+        }
+
+
+        public void Close(IResource resource)
         {
             throw new NotImplementedException();
         }

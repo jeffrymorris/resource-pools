@@ -8,5 +8,6 @@ namespace Rantdriven.Patterns.ObjectPools
 {
     public interface IResource : IDisposable
     {
+        void Close();
     }
 }
